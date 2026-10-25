@@ -46,10 +46,14 @@ NAVIGATION BAR
 .nav__links {
   list-style: none;
   display:flex;
-  gap: 60px;
+  gap: 40px;
   align-items: center;
   cursor: pointer;
 }
+
+@media(max-width:760px) {.nav__links{
+  gap:20px;
+}}
 
 .nav__link a{
   text-decoration: none;
@@ -109,6 +113,8 @@ LANDING
   display: flex;
   flex-direction: column;
   align-items: center;
+  width:100%;
+  max-width:760px;
 }}
 
 .purple{
@@ -134,15 +140,27 @@ h1 {
   font-family:Arial, Helvetica, sans-serif;
   color: black;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
+  text-align: center;
 }
+
+@media(max-width:760px) {h1{
+  font-size: 25px;
+  text-align: center;
+}}
 
 .landing__row__para {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.753);
+  text-align: center;
 }
+
+@media(max-width:760px){.landing__row__para{
+  font-size: 12px;
+  text-align: center;
+}}
 
 .landing__row__email {
   display:inline-block;
@@ -156,6 +174,11 @@ h1 {
   border: 1px solid rgba(128, 128, 128, 0.406);
 }
 
+@media(max-width:760px){#email {
+  padding: 5px 70px 10px 20px;
+  align-items: center;
+}}
+
 .btn {
   position: absolute;
   transform: translateX(-105%);
@@ -163,19 +186,26 @@ h1 {
   color: white;
   font-size: 12px;
   font-weight: bold;
-  padding: 4px 40px;
   border-radius: 40px;
   cursor: pointer;
    white-space: nowrap;
   padding: 10px;
 }
 
+@media(max-width:760px) {.btn {
+  padding: 5px;
+}}
+
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px 20px;
-  font-size: 18px;
+  font-size: 14px;
   color: rgba(10, 10, 40, 0.457);
 }
+
+@media(max-width:760px) {h3{
+  font-size: 12px;
+}}
 .features__container {
   padding: 80px 0;
   /* border:1px solid black; */
