@@ -29,6 +29,9 @@ NAVIGATION BAR
 .logo__image {
   width: 80px;
 }
+@media(max-width:480px) {.logo__image{
+  width: 40px;
+}}
 
 .logo__text--nav{
   font-family: Arial, Helvetica, sans-serif;
@@ -58,6 +61,7 @@ NAVIGATION BAR
 .nav__link a{
   text-decoration: none;
   color: black;
+  font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
@@ -65,7 +69,9 @@ NAVIGATION BAR
 @media(max-width:760px) {.nav__link a{
   font-size: 10px;
 }}
-
+@media(max-width:480px) {.nav__link a{
+  font-size: 8px;
+}}
 
 .nav__link--primary {
   padding: 4px 15px;
@@ -84,14 +90,29 @@ NAVIGATION BAR
 }
 .nav__link--primary a {
   color: white;
+  font-size: 10px;
 }
+
+@media(max-width:480px) {.nav__link--primary a{
+  font-size: 8px;
+}}
 
 @media(max-width:760px) {.nav__link--primary {
   padding: 2px 8px;
 }}
-@media(max-width:760px) {.nav__link--primary a{
-  font-size: 10px;
+
+@media(max-width:480px) {.nav__link--primary {
+  padding: 2px 6px;
 }}
+@media(max-width:760px) {.nav__link--primary a{
+  font-size: 8px;
+  text-align: center;
+}}
+@media(max-width:480px) {.nav__link--primary a{
+  font-weight: 400;
+  text-align: center;
+}}
+
 
 
 /* 
@@ -148,6 +169,10 @@ h1 {
   font-size: 25px;
   text-align: center;
 }}
+@media(max-width:480px) {h1{
+  font-size: 18px;
+  text-align: center;
+}}
 
 .landing__row__para {
   font-family: Arial, Helvetica, sans-serif;
@@ -159,6 +184,10 @@ h1 {
 
 @media(max-width:760px){.landing__row__para{
   font-size: 12px;
+  text-align: center;
+}}
+@media(max-width:480px){.landing__row__para{
+  font-size: 10px;
   text-align: center;
 }}
 
@@ -177,6 +206,11 @@ h1 {
 @media(max-width:760px){#email {
   padding: 5px 70px 10px 20px;
   align-items: center;
+}}
+@media(max-width:480px){#email {
+  padding: 5px 50px 5px 10px;
+  align-items: center;
+  transform: translateX(-20%);
 }}
 
 .btn {
@@ -206,6 +240,17 @@ h3 {
 @media(max-width:760px) {h3{
   font-size: 12px;
 }}
+
+/* 
+
+
+FEATURES
+
+
+*/
+
+
+
 .features__container {
   padding: 80px 0;
   /* border:1px solid black; */
