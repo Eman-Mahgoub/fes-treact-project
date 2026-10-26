@@ -27,7 +27,10 @@ BODY
     <img src="./assets/treact-logo.svg" alt="logo" class="logo__image">
     <h1 class="logo__text--nav">Treact</h1>
   </div>
-  <ul class="nav__links">
+
+  <button class="nav__toggle" type="button" aria-controls="nav-links" aria-expanded="false"
+  onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'false')">Menu</button>
+<ul class="nav__links" id="nav-links">
     <li class="nav__link"> <a href="#about"> About </a></li>
     <li class="nav__link"> <a href="#blog"> Blog</a></li>
     <li class="nav__link"> <a href="#pricing"> Pricing </a></li>

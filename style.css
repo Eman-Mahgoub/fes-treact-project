@@ -27,16 +27,18 @@ NAVIGATION BAR
 }
 
 .logo__image {
-  width: 80px;
+  width: 40px;
+  height: 40px;
 }
 @media(max-width:480px) {.logo__image{
   width: 40px;
 }}
 
 .logo__text--nav{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: #243e63;
 }
 
 @media(max-width:760px) {.logo__image{
@@ -54,15 +56,24 @@ NAVIGATION BAR
   cursor: pointer;
 }
 
-@media(max-width:760px) {.nav__links{
-  gap:20px;
-}}
+.nav__toggle { display: none; }
+@media (max-width: 760px) {
+  .nav__toggle { display: block; position: relative; z-index: 1001; }
+  .nav__links {
+    display: none; position: fixed; top: 0; right: 0; bottom: 0;
+    width: min(80vw, 280px); box-sizing: border-box;
+    margin: 0; padding: 80px 24px 24px; background: white;
+    flex-direction: column; gap: 24px; overflow-y: auto; z-index: 1000;
+  }
+  .nav__toggle[aria-expanded="true"] + .nav__links { display: flex; }
+  .nav__links .nav__link a { font-size: 16px; }
+}
 
 .nav__link a{
   text-decoration: none;
-  color: black;
-  font-size: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #243e63;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 
@@ -74,7 +85,8 @@ NAVIGATION BAR
 }}
 
 .nav__link--primary {
-  padding: 4px 15px;
+  margin:0;
+  padding: 10px 32px;
   border-radius: 20px;
   background-color: rgb(100 21 255);
    transition: background-color 0.3s;
@@ -90,7 +102,7 @@ NAVIGATION BAR
 }
 .nav__link--primary a {
   color: white;
-  font-size: 10px;
+  font-size: 18px;
 }
 
 @media(max-width:480px) {.nav__link--primary a{
