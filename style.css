@@ -1,5 +1,5 @@
-* {padding:none;
-margin: none;
+* {padding:0;
+margin: 0;
 }
 
 
@@ -662,6 +662,7 @@ FOOTER
   width: calc(100%/5);
   /* border: 1px solid black; */
   align-items: center;
+  justify-content: flex-start;
 }
 
 .link__title {
