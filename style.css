@@ -247,18 +247,27 @@ h1 {
   transform: translateX(-20%);
 }} */
 
-.btn {
-  position: absolute;
-  transform: translateX(-105%);
+.header__email--btn{
+  z-index: 2;
+  height: calc(100%/16px);
+  border-radius: 500px;
+  border: none;
+  /* position: absolute;
+  transform: translateX(-105%); */
   background-color: rgb(100 21 255);
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
-  border-radius: 40px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
   cursor: pointer;
-   white-space: nowrap;
-  padding: 10px;
 }
+
+@media(max-width:760px) {.header__email--btn{
+          width: 100%;
+        padding: 16px 0;
+        margin: 16px 0;
+        margin-bottom: 0px;
+        line-height: 1.5;
+}}
 
 @media(max-width:760px) {.btn {
   padding: 5px;
