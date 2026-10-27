@@ -1,5 +1,8 @@
 * {padding:0;
 margin: 0;
+font-family: "inter", sans-serif;
+box-sizing: border-box;
+color: #243e63;
 }
 
 
@@ -13,6 +16,7 @@ NAVIGATION BAR
 
 
 .nav__row {
+  padding: 32px;
   width:100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -35,7 +39,6 @@ NAVIGATION BAR
 }}
 
 .logo__text--nav{
-  font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 24px;
   color: #243e63;
@@ -73,7 +76,6 @@ NAVIGATION BAR
   text-decoration: none;
   color: #243e63;
   font-size: 18px;
-  font-family: "Inter", sans-serif;
   font-weight: 600;
 }
 
@@ -170,8 +172,6 @@ img {
 }
 
 h1 {
-  font-family:Arial, Helvetica, sans-serif;
-  color: black;
   font-weight: 700;
   font-size: 40px;
   text-align: center;
@@ -187,7 +187,6 @@ h1 {
 }}
 
 .landing__row__para {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.753);
@@ -243,7 +242,6 @@ h1 {
 }}
 
 h3 {
-  font-family: Arial, Helvetica, sans-serif;
   padding: 20px 20px;
   font-size: 14px;
   color: rgba(10, 10, 40, 0.457);
@@ -290,7 +288,6 @@ FEATURES
 
 
 .Feature__head__para {
-  font-family: Arial, Helvetica, sans-serif;
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -358,7 +355,6 @@ FEATURES
 }
 
 P {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: rgba(0, 0, 0, 0.744);
 }
@@ -586,9 +582,6 @@ border-radius: 10px;
   font-weight: 500;
 }
 
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .plan__desc {
   border-top: 1px solid rgb(172, 167, 167);
@@ -657,15 +650,18 @@ FOOTER
 
 
 .link {
+  margin-top: 48px;
   display: flex;
   flex-direction: column;
   width: calc(100%/5);
   /* border: 1px solid black; */
-  align-items: center;
-  justify-content: flex-start;
+  align-items: flex-start;
+  /* justify-content: flex-start; */
 }
 
 .link__title {
+  margin:0;
+  padding:0;
   color: white;
   font-size: 14px;
 }
