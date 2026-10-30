@@ -268,7 +268,7 @@ img {
   width: 160px;
   border: none;
   position: absolute; 
-  transform: translateX(-2%); 
+  transform: translateX(60%); 
   background-color: rgb(100 21 255);
   color: #fff;
   font-size: 16px;
