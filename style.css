@@ -1127,10 +1127,17 @@ GET STARTED CONTACT US
 .action__container{
 width:100%;
 max-width: 1200px;
+margin-top: 100px;
 height: 300px;
-border: 1px solid black;
-margin-top: 200px;
+/* border: 1px solid black; */
+/* margin-top: 200px; */
 background-color: #6415ff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap:50px;
+padding: 0 36px;
+padding-bottom: 36px;
 }
 
 .action__txt{
@@ -1140,7 +1147,7 @@ background-color: #6415ff;
     line-height: 1.5;
     z-index: 2;
     margin-top: 60px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 @media(max-width:760px) {.action__txt{
@@ -1151,7 +1158,7 @@ background-color: #6415ff;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
   margin-top: 40px;
 }
 
