@@ -1140,6 +1140,7 @@ background-color: #6415ff;
     line-height: 1.5;
     z-index: 2;
     margin-top: 60px;
+    text-align: center;
 }
 
 @media(max-width:760px) {.action__txt{
