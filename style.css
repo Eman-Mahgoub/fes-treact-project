@@ -1142,6 +1142,10 @@ background-color: #6415ff;
     margin-top: 60px;
 }
 
+@media(max-width:760px) {.action__txt{
+  margin-top:30px;
+}}
+
 .btns__box{
   display: flex;
   justify-content: center;
@@ -1149,6 +1153,11 @@ background-color: #6415ff;
   gap: 50px;
   margin-top: 40px;
 }
+
+@media(max-width:760px) {.btns__box{
+  flex-direction: column;
+  gap:10px;
+}}
 
 .button{
   border: none;
