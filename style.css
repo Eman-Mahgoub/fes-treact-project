@@ -1012,11 +1012,28 @@ TESTIMONIALS
   gap: 50px;
 }
 
+@media(max-width:760px) {.test__row{
+  flex-direction: column;
+  align-items: center;
+}}
+
 .test__column{
   display: flex;
   flex-direction: column;
   width:50%;
 }
+
+@media(max-width:760px) {.test__column{
+  width:70%
+}}
+
+@media(max-width:760px) {.test__text{
+  text-align: center;
+}}
+@media(max-width:760px) {.rev__row{
+  text-align: center;
+}}
+
 
 
 .test__title{
