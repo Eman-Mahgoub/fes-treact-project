@@ -784,10 +784,9 @@ padding-right: 60px;
   text-align: center;
 }}
 
-@media(max-width:760px){.value__cta{
+@media(max-width:760px){.btn{
   align-items: center;
   text-align: center;
-  margin: 40px 90px;
 }}
 
 /* 
