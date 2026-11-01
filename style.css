@@ -681,6 +681,10 @@ values
 
 @media(max-width:760px) {.values__column{width:100%}}
 
+@media(max-width:760px) {.values__image{
+  margin-top: 40px;
+}}
+
 
 .values__text{
 align-items: center;
@@ -738,6 +742,7 @@ padding-right: 60px;
 }
 @media(max-width:760px) {.value{
   align-items: center;
+  width: 100%;
 }}
 .value__name{
       margin-left: 12px;
@@ -782,7 +787,7 @@ padding-right: 60px;
 @media(max-width:760px){.value__cta{
   align-items: center;
   text-align: center;
-  margin-left:150px;
+  margin: 40px 90px;
 }}
 
 /* 
