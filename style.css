@@ -874,7 +874,7 @@ border-radius: 10px;
 }
 
 @media(max-width:760px) {.plan{
-  width: 70%;
+  width: 100%;
 }}
 
 .plan__name{
@@ -1047,7 +1047,7 @@ TESTIMONIALS
 }
 
 @media(max-width:760px) {.test__column{
-  width:70%
+  width:100%
 }}
 
 @media(max-width:760px) {.test__text{
