@@ -1136,7 +1136,7 @@ GET STARTED CONTACT US
 .action__container{
 width:100%;
 max-width: 1200px;
-margin-top: 100px;
+margin: 100px auto;
 height: 300px;
 /* border: 1px solid black; */
 /* margin-top: 200px; */
