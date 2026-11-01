@@ -1163,6 +1163,11 @@ padding: 0 36px;
 padding-bottom: 36px;
 }
 
+@media(max-width:760px) {.action__container{
+  flex-direction: column;
+  height: auto;
+}}
+
 .action__txt{
   color: #f7fafc;
     font-size: 30px;
