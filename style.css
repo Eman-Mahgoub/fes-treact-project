@@ -968,6 +968,7 @@ border-radius: 10px;
 
 .plan__btn {
   margin-top: 40px;
+  margin-bottom: 40px;
   padding: 25px 50px;
   border-radius: 40px;
   cursor: pointer;
@@ -1017,6 +1018,7 @@ TESTIMONIALS
   display: flex;
   flex-direction: row;
   gap: 50px;
+  margin: 0 auto;
 }
 
 @media(max-width:760px) {.test__row{
