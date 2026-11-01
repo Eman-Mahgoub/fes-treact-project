@@ -166,8 +166,8 @@ LANDING
   padding: 30px 40px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
 }
 
 @media(max-width:760px) {.landing__row {width: 100%;}}
@@ -185,7 +185,7 @@ img {
   color: #1a202c;
   line-height: 1.25;
   font-weight: 700;
-  text-align: center;
+  /* text-align: center; */
 }
 
 @media(max-width:760px) {h1{
@@ -202,7 +202,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.753);
-  text-align: center;
+  /* text-align: center; */
   line-height: 1.5;
 }
 
@@ -221,8 +221,9 @@ img {
   height:68px;
   display:flex;;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   position: relative;
+  
 }
 
 @media(max-width: 760px) {.landing__row__email {
@@ -245,6 +246,7 @@ img {
   font-weight: 500;
   z-index: 1;
   transition: border-color 300ms;
+  padding: 10px;
 }
 
 .header__email--input:hover {
@@ -262,13 +264,15 @@ img {
 
 .header__email--btn{
   z-index: 2;
-  margin: 8px;
-  height: calc(100% - 16px);
+  margin: 4px;
+  height: calc(100% - 24px);
+  /* margin-bottom: 24px; */
   border-radius: 500px;
   width: 160px;
   border: none;
   position: absolute; 
-  transform: translateX(60%); 
+  /* transform: translateX(60%);  */
+  right:0;
   background-color: rgb(100 21 255);
   color: #fff;
   font-size: 16px;
